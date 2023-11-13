@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*google font*/
+html body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color:slateblue;
+    color: white;
+    text-align: center;
+}
+header h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+header a:hover footer a:hover{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+section{
+    padding-bottom: 10vh;
+    padding-right: 2em;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+section.normal{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.503);
+}
+section.image{
+    background-color: rgba(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473); /* imagempra dentro*/
+    background-size: cover;
+    background-attachment: fixed ;/* fixa a foto no fundo*/
+}
+section.imagep{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+}
+section.image01{
+    background-image: url(meu_logo.jpg);  
+    background-position: right center;
+}
+section.image02{
+    background-image: url(minha\ capa.jpg);
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
